@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class ChanpinController {
 
 
-    @GetMapping("/hello")
+    @GetMapping("/hellos")
     public String hello(){
 
         return "hello";
